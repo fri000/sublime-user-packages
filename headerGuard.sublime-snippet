@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+#ifndef ${1}_HEADER_GUARD
+#define ${1}_HEADER_GUARD
+${0}
+#endif //${1}_HEADER_GUARD
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>headerguard</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.h, source.c, source.objc, source.c++, source.objc++</scope> -->
+	<description>Header guard</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+typedef struct ${1:blah}_
+{
+    ${0}
+} ${1:blah}_t;
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tstruct</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.h, source.c, source.objc, source.c++, source.objc++</scope>
+	<description>typedef struct</description>
+</snippet>

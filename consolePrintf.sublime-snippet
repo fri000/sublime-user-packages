@@ -1,0 +1,6 @@
+<snippet>
+	<description>console_printf …</description>
+    <content><![CDATA[console_printf("${1:0x%02x}\\n"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}]]></content>
+    <tabTrigger>con</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

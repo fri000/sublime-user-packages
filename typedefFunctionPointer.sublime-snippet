@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+typedef void (*${1:OnComplete}_t)(void* arg);
+${0}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>func pointer</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.h, source.c, source.objc, source.c++, source.objc++</scope>
+	<description>typedef function pointer</description>
+</snippet>

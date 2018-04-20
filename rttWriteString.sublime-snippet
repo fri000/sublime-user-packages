@@ -1,0 +1,6 @@
+<snippet>
+	<description>SEGGER_RTT_WriteString …</description>
+    <content><![CDATA[SEGGER_RTT_WriteString(0,"${1:blah}\\n");]]></content>
+    <tabTrigger>rtt</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

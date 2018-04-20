@@ -1,0 +1,6 @@
+<snippet>
+	<description>SEGGER_RTT_printf …</description>
+    <content><![CDATA[SEGGER_RTT_printf(0,"${1:%s}\\n"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}]]></content>
+    <tabTrigger>rtt</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
