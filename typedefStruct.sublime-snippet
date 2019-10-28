@@ -7,7 +7,7 @@ typedef struct ${1:blah}_
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tstruct</tabTrigger>
+	<tabTrigger>struct</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.h, source.c, source.objc, source.c++, source.objc++</scope>
 	<description>typedef struct</description>
